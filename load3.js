@@ -6,12 +6,9 @@ var getImage = function(shapes, width, height) {
 
   let prevContext = ctx;
   ctx = canvas.getContext("2d");
-  pushMatrix();
-  translate(0,0);
-  scale(1,-1);
-  rotate(-90)
+  ctx.save();
   shapes(ctx);
-  popMatrix();
+  ctx.restore();
   ctx = prevContext;
 
   return canvas;
