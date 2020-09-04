@@ -31,7 +31,7 @@ var nextSprite=function(ctx){
 };
 
 var spriteSheets={
-  wood:getImage(wood);
-  stone:getImage(stone);
-  glass:getImage(glass);
+  wood:getImage(wood),
+  stone:getImage(stone),
+  glass:getImage(glass)
 };
