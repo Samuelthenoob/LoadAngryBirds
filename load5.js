@@ -29,8 +29,8 @@ var nextSprite=function(ctx){
 var getSpriteSheets=function(){
   var spriteSheets={
     wood:getImage(woodBlocks,600,600),
-    stone:getImage(glassBlocks,600,600),
-    glass:getImage(stoneBlocks,600,600)
+    stone:getImage(stoneBlocks,600,600),
+    glass:getImage(glassBlocks,600,600)
   };
   return spriteSheets;
 };
